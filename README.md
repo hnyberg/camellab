@@ -1,2 +1,2 @@
-# camellab
-testing camel routes
+# camel client
+client with camel routes, to process data and send to camle server
