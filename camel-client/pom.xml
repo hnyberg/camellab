@@ -46,11 +46,24 @@
 			<version>${camel.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-http</artifactId>
+			<version>${camel.version}</version>
+		</dependency>
+
 		<!-- Camel Jackson for JSON transformation -->
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-jackson-starter</artifactId>
 			<version>${camel.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version> <!-- eller senaste stabila -->
+			<scope>provided</scope>
 		</dependency>
 
 		<!-- Test support -->
